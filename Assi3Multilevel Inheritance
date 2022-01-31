@@ -1,0 +1,35 @@
+package utkarsha;
+
+public class Teacher {
+	void teach()
+	{
+	System.out.println("Teaching subject");	
+	}
+ }
+class Student extends Teacher{
+	void listen()
+	{
+		System.out.println("Listening");
+	}
+}
+class homeTution extends Student{
+	void explains()
+	{
+		System.out.println("Does homework");
+	}
+}
+class A3Multilevel {
+
+	public static void main(String[] args) {
+		homeTution h=new homeTution();
+        h.explains();
+        h.listen();
+        h.teach();
+	}
+}
+
+-------
+output
+Does homework
+listening
+Teaching
