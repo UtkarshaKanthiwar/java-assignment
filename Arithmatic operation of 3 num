@@ -22,27 +22,27 @@ public static void main(String[] args)
 	
 	if(num1>num2)
 	{
-		System.out.println(num1+"is larger");
+		largest=num1;
 	}
-	else if (num2>num3)
+	if (num3>largest)
 	{
-		System.out.println(num2+"is larger");
+		largest=num3;
 	}
-	else if(num3>num1)
-	{
-		System.out.println(num3+"is larger");
-	}
+	
+		System.out.println(largest+"is larger");
+	
+	
 		if(num1>num2)
 			{
-			System.out.println(num2+"is smallest");
+			 smallest=num2;
 			}
-		else if(num2>num3)
+		if(num3<smallest)
 		{
-		System.out.println(num3+"is smallest");
+		 smallest=num3;
 		}
-		else if(num3>num1)
-{
-System.out.println(num1+"is smallest");
-}
+	
+
+System.out.println(smallest+"is smallest");
+
 }
 }
